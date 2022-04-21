@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background-color: #233056;
+    color: #cccccc;
+
+    padding: 25px 25px;
+
+    text-align: center;
+}
+
+.img-header {
+    height: 75px;
+    width: 122;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    padding: 24px 0px 0px 0px;
+
+    justify-content: center;
+
+    font-size: 14px;
+}
+
+
+a.header {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+a.header:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 25px 25px;
+
+    text-align: center;
+
+    background-color: #090C15;
+    color: white;
+}
+
+.text {
+    font-size: 22px;
+}
+
+.text a {
+    color: #84ba64;
+}
+
+.botao {
+    padding: 5px 15px;
+    border-radius: 2px;
+    margin-top: 1em;
+
+    background-color: #84ba6448;
+}
+
+.botao a, button {
+    background: none;
+    border: none;
+
+    font-size: 30px;
+    color: #84ba64;
+
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.botao a:hover, button:hover {
+    background-color: #84ba64c4;
+    color: white;
+}
+
+.casa {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.filho button {
+    background-color: #43853d;;
+    align-items: center;
+}
