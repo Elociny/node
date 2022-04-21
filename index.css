@@ -50,52 +50,113 @@ a.header:hover {
 main {
     padding: 25px 25px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 
     background-color: #090C15;
     color: white;
 }
 
-.text {
-    font-size: 22px;
-}
-
-.text a {
+a {
     color: #84ba64;
 }
 
+a:hover.underline {
+    background-color: #43853d;
+    color: white;
+
+    border-radius: 3px;
+    padding: 1px 0px;
+}
+
 .botao {
-    padding: 5px 15px;
+    padding: 10px 0px;
     border-radius: 2px;
     margin-top: 1em;
 
     background-color: #84ba6448;
+
+    width: 500px;
 }
 
-.botao a, button {
+.botao a {
     background: none;
     border: none;
 
-    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
     color: #84ba64;
 
     padding: 5px;
     border-radius: 5px;
 }
 
-.botao a:hover, button:hover {
-    background-color: #84ba64c4;
+.botao a:hover {
+    transition: 0.6s;
+
+    background-color: #43853d;
     color: white;
 }
 
-.casa {
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
+h1 {
+    margin-top: 25px;
 }
 
-.filho button {
-    background-color: #43853d;;
-    align-items: center;
+.botoes {
+    display: flex;
+    gap: 15px;
+}
+
+.btoom button {
+    background-color: #2a7200;
+    color: white;
+    font-size: 24px;
+    
+    width: 300px;
+
+    margin: 25px 0px 10px 0px;
+    padding: 5px 5px;
+
+    border: none;
+    border-radius: 4px;
+}
+
+.btoom button:hover {
+    transition: 0.5s;
+    background-color: #43853d;
+
+    cursor: pointer;
+}
+
+span {
+    font-size: small;
+}
+
+.row {
+    display: flex;
+    gap: 7px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 25px;
+}
+
+.lado {
+    color: #84ba64;
+}
+
+.lado a:hover {
+    text-decoration: underline;
+    text-decoration-color: #2a7200;
+    cursor: pointer;
+
+    color: white;
+}
+
+.traco {
+    color: #999;
 }
