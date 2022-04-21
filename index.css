@@ -160,3 +160,25 @@ span {
 .traco {
     color: #999;
 }
+
+footer {
+    padding: 25px;
+
+    background-color: #233056;
+    color: white;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a:link {
+    color: #add8e6;
+}
+
+.img-footer {
+    height: 38px;
+    width: 120;
+
+    margin-bottom: 15px;
+}
